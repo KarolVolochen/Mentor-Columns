@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Dancing+Script&family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Dancing+Script&family=Explora&family=Lexend+Deca&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+
+.carros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 15px;
+    color: white;
+    font-family: Lexend Deca;
+
+}
+
+span {
+    font-size: 25px;
+    font-family: Big Shoulders Display;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+   
+}
+
+.sedans {
+    width: 200px;
+    height: 350px;
+    background-color: hsl(31, 77%, 52%);
+    text-align: left;
+    padding: 30px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.suv {
+    width: 200px;
+    height: 350px;
+    background-color:hsl(184, 100%, 22%);
+    text-align: left;
+    padding: 30px;
+
+}
+
+.luxo {
+    width: 200px;
+    height: 350px;
+    background-color:hsl(179, 100%, 13%);
+    text-align: left;
+    padding: 30px;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+
+.buttonsedan {
+    background-color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    margin-top: 80px;
+    border-color: white;
+    color: white;
+    font-family: Lexend Deca;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.buttonsuv {
+    background-color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    margin-top: 80px;
+    border-color: white;
+    color: white;
+    font-family: Lexend Deca;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.buttonluxo {
+    background-color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    margin-top: 63px;
+    border-color: white;
+    color: white;
+    font-family: Lexend Deca;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.attribution {
+    margin-top: 100px;
+    font-size: 15px;
+    font-family: Lexend Deca;
+}
+
+
+@media(max-width: 500px) {
+    body {
+        margin: 0;
+    }
+   
+    .carros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    
+    }
+
+    .suv {
+        height: 320px;
+    }
+
+    .sedans {
+        height: 320px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .luxo {
+        height: 320px;
+        border-radius: 0px 0px 10px 10px;
+    }
+}
